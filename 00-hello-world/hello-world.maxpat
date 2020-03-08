@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 0,
-			"revision" : 3,
+			"minor" : 1,
+			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -47,7 +47,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 454.5, 268.5, 150.0, 79.0 ],
-					"presentation_linecount" : 4,
 					"text" : "This object is called node.debug, it can be used to observe the state of the script."
 				}
 
@@ -61,7 +60,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 175.5, 187.5, 139.0, 37.0 ],
-					"presentation_linecount" : 2,
 					"text" : "2. The \"script stop\" message will stop it"
 				}
 
@@ -75,7 +73,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 123.5, 136.5, 170.0, 37.0 ],
-					"presentation_linecount" : 3,
 					"text" : "1. Send the \"script start\" message to start the script"
 				}
 
@@ -125,7 +122,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 10.0, 79.0, 578.0, 38.0 ],
-					"presentation_linecount" : 3,
 					"text" : "The node.script object runs a Node script in a separate process. Using the max-api package, you can communicate with the parent Max process."
 				}
 
@@ -139,7 +135,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 10.0, 10.0, 360.0, 64.0 ],
-					"presentation_linecount" : 3,
 					"text" : "00 - Hello World"
 				}
 
@@ -188,8 +183,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -229,29 +222,26 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "hello-world.js",
-				"bootpath" : "~/git/n4m-core-examples/00-hello-world",
+				"bootpath" : "~/Dev/audio/max4L_devices/n4m-core-examples/00-hello-world",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "n4m.monitor.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/Node For Max/patchers/debug-monitor",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/Node For Max/patchers/debug-monitor",
+				"bootpath" : "C74:/packages/Node For Max/patchers/debug-monitor",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "resize_n4m_monitor_patcher.js",
-				"bootpath" : "~/Documents/Max 8/Packages/Node For Max/patchers/debug-monitor",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/Node For Max/patchers/debug-monitor",
+				"bootpath" : "C74:/packages/Node For Max/patchers/debug-monitor",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "fit_jweb_to_bounds.js",
-				"bootpath" : "~/Documents/Max 8/Packages/Node For Max/patchers/debug-monitor",
-				"patcherrelativepath" : "../../../Documents/Max 8/Packages/Node For Max/patchers/debug-monitor",
+				"bootpath" : "C74:/packages/Node For Max/patchers/debug-monitor",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -260,8 +250,8 @@
 		"styles" : [ 			{
 				"name" : "light",
 				"default" : 				{
-					"fontsize" : [ 32.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 32.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 1.0, 1.0, 1.0, 1.0 ],
